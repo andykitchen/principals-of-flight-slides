@@ -47,6 +47,23 @@
         text-align: left;
       }
 
+      h1.right {
+        text-align: right;
+      }
+
+      h1.light {
+        color: #fff;
+        text-shadow: 3px 3px 5px black;
+      }
+
+      .big {
+        font-size: 50px !important;
+      }
+
+      .wide {
+        width: 600px;
+      }
+
       .mirror {
         display:inline-block;
         -moz-transform: scale(-1, 1);
@@ -54,6 +71,14 @@
         -o-transform: scale(-1, 1);
         -ms-transform: scale(-1, 1);
         transform: scale(-1, 1);
+      }
+
+      .circle {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        background: black;
+        display: inline-block;
       }
 
       /* begin hacks and lies */
@@ -77,9 +102,156 @@
         <section data-background="#363540" data-background-transition="slide">
           <h1 id="intro-header">
             ML<br>
-            AI<br>
-            Meetup
+            AI
           </h1>
+        </section>
+
+        <section>
+          <section>What this meetup is about</section>
+          <section>Community</section>
+          <section>Mastery</section>
+          <section>Beer</section>
+          <section>(or other beverage of choice)</section>
+          <section>do things</section>
+          <section>work on cool problems</section>
+          <section>together</section>
+        </section>
+
+        <section>
+          <section data-background="images/glider.jpg">
+            <h1 class="right light">Principles<br>of Flight</h1>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Characters</h1>
+          </section>
+          <section>
+            The Wright Brothers
+          </section>
+          <section>
+            Juggling Unicycling Professor
+          </section>
+          <section>
+            Cillie Nazi-Fighting Genius
+          </section>
+          <section>
+            393,284 Floating Point Parameters
+          </section>
+          <section>
+            A Dictionary.
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Stakes</h1>
+          </section>
+          <section>
+            There will be a million ways we can't live without it.
+          </section>
+          <section>
+            A webbrain is a terrible thing to waste.
+          </section>
+        </section>
+
+        <section>
+          <section>Juggling Unicycling Professor</section>
+          <section>Claude Shannon</section>
+          <section>Information Theory</section>
+        </section>
+
+        <section data-background="black">
+          <!-- <video width="768" height="576" onclick="this.play();"> -->
+          <video width="768" height="576" controls>
+              <source src="videos/ultimate-machine.webm" type="video/webm"></source>
+          </video>
+        </section>
+
+        <section>
+          <div class="circle" id="independent1"></div>
+          <div class="circle" id="independent2"></div>
+          <script type="text/javascript">
+            setInterval(function() {
+              var circle1 = document.getElementById("independent1")
+              var circle2 = document.getElementById("independent2")
+
+              circle1.style.opacity = Math.random() > 0.5 ? 1.0 : 0.0;
+              circle2.style.opacity = Math.random() > 0.5 ? 1.0 : 0.0;
+            }, 200);
+          </script>
+        </section>
+
+        <section>
+          <div class="circle" id="together1"></div>
+          <div class="circle" id="together2"></div>
+          <script type="text/javascript">
+            setInterval(function() {
+              var circle1 = document.getElementById("together1")
+              var circle2 = document.getElementById("together2")
+
+              var opacity = Math.random() > 0.5 ? 1.0 : 0.0;
+              circle1.style.opacity = opacity
+              circle2.style.opacity = opacity
+            }, 200);
+          </script>
+        </section>
+
+        <section>
+          This slide intentionally left blank
+        </section>
+
+        <section>
+          <section>Cillie Nazi-Fighting Genius</section>
+          <section>Alan Turing</section>
+          <section>Computation Theory</section>
+        </section>
+
+        <section data-background="black">
+          <section>
+            <h1 class="light">The shroud of Turing</h1>
+          </section>
+          <section>
+            <img height="700" src="images/shroud_of_turing_1.gif">
+          </section>
+          <section>
+            <img height="700" src="images/shroud_of_turing_3.gif">
+          </section>
+          <section>
+            <img height="700" src="images/turing_a.gif">
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h2>
+              Church / Turing
+            </h2>
+          </section>
+          <section>
+            <ol class="big">
+              <li>Bits</li>
+              <li>...</li>
+              <li>Intelligence</li>
+            </ol>
+          </section>
+          <section>
+            <ol class="big wide">
+              <li>Collect Underpants</li>
+              <li>...</li>
+              <li>Profit</li>
+            </ol>
+          </section>
+          <section>
+            Everything is bits in motion
+          </section>
+          <section>
+            well almost everything...
+          </section>
+          <section>
+            <img src="images/magic.gif"></img>
+          </section>
         </section>
 
         <section>
@@ -88,6 +260,84 @@
           </section>
           <section class="full-page">
             <iframe class="full-page" src="rbm/rbm.html" width="1024" height="768"></iframe>
+          </section>
+        </section>
+
+        <section>
+          <section>
+            Word2Vec
+          </section>
+          <section>
+            woman - man = queen - king
+          </section>
+          <section>
+            woman - man + king = queen
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Turing Consistency</h1>
+          </section>
+          <section>
+            Enough parameters, Any computable function            
+          </section>
+          <section>
+            Learn anything that can be learned
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Bayesian Stability</h1>
+          </section>
+          <section>
+            More data, Less surprise
+          </section>
+          <section>
+            Model Surprisal = System Entropy
+          </section>
+          <section>
+            Predict as much as can be predicted
+          </section>
+        </section>
+
+        <section>
+          <section>
+            <h1>Program Search</h1>
+          </section>
+          <section>
+            Some bit strings are intelligent, some are not
+          </section>
+          <section>
+            intrepid explorers
+          </section>
+          <section>
+            exploring the space of programs
+          </section>
+        </section>
+
+        <section>
+          <section>
+            The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim. &mdash; Edsger W. Dijkstra
+          </section>
+          <section>
+            Submarines were never meant to swim like a fish
+          </section>
+          <section>
+            Planes were never meant to fly like a bird
+          </section>
+          <section>
+            Drybrains aren't meant to think like wetbrains 
+          </section>
+          <section>
+            But there is something in common
+          </section>
+          <section>
+            Birds and planes are both bound by aerodynamics
+          </section>
+          <section>
+            Drybrains and Wetbrains are both bound by information&nbsp;theory
           </section>
         </section>
 
@@ -113,8 +363,8 @@
         width: 1024,
         height: 768,
 
-        controls: true,
-        progress: true,
+        controls: false,
+        progress: false,
         history: true,
         center: true,
 

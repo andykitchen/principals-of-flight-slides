@@ -1,0 +1,122 @@
+Characters:
+
+- The Wright Brothers
+- A Juggling-Unicycling Professor
+- A Nazi-Fighting Genius
+- 393,284 Floating Point Parameters
+- A dictionary!
+
+- church-turing thesis
+
+Eveything! Everything that can can ever think, everything that you will ever think
+is encodable as bits, love, hate, compassion, intution, ethics, the smell of clean laundry!
+
+- same way 
+
+- program search
+
+--
+
+Machine Learning Meetup:
+
+1. Focused
+2. Technical
+3. Community
+
+- Open minded about what shape it takes
+
+-- 
+
+- Church Turing Thesis
+- 1. Bits 2. ... 3. Intelligence/Profit
+
+- The best way way to predict the future is to invent it
+- The best way to meet aliens is to build them
+
+- The question of whether Machines Can Think... is about as relevant as the question of whether Submarines Can Swim. - "Edsger W. Dijkstra" 
+
+- Turing Consistency
+	- Enough parameters, Any computable function
+	- Learn anything that can be learned
+
+- Bayesian Stability
+	- More data, Less surprise
+	- Model Surprisal = System Entropy
+	- Predict as much as can be predicted
+
+- program search
+
+- 10 bits per training example, 10 million bits of example
+
+- 10^11 human neurons, 10^14 human synapses
+
+- 10^8 simulated neurons, 10^9 synapses
+
+- 10^14 synapses 10^9 seconds
+
+- Deep Learning
+
+- Structure Prior
+
+- Parameter space
+
+- Intelligent Region
+
+- Patterns in Patterns
+
+- Step towards regions of higher utility using data
+
+- Models
+	- ImageNet (Symmetry Prior)
+	- DeepSpeech
+	- DeepFace
+	- Word2Vec
+	- Go (Symmetry Prior)
+	- OCR
+
+- Many fused convex subspaces
+
+
+Machine Learning Meetup:
+
+1. Focused
+2. Technical
+3. Community
+
+- Open minded about what shape it takes
+
+-- 
+
+- Church Turing Thesis
+- Bits > Intelligence
+- Turing Consistency
+
+- program search
+
+- 10 bits per training example
+
+- 10^14 synapses 10^9 seconds
+
+- Deep Learning
+
+- Structure Prior
+
+- Parameter space
+
+- Intelligent Region
+
+- Patterns in Patterns
+
+- Step towards regions of higher utility using data
+
+- Models
+	- ImageNet (Symmetry Prior)
+	- DeepSpeech
+	- DeepFace
+	- Word2Vec
+	- Go (Symmetry Prior)
+	- OCR
+
+- Many fused convex subspaces
+
+

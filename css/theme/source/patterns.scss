@@ -12,14 +12,26 @@
 
 
 
-// Include theme-specific fonts
 @font-face {
-	font-family: 'Quicksand';
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Quicksand Light'), local('Quicksand-Light'), url(../../fonts/Quicksand/Quicksand-Light.ttf) format('truetype');
 }
 
-@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700);
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(../../fonts/Quicksand/Quicksand-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Quicksand Bold'), local('Quicksand-Bold'), url(../../fonts/Quicksand/Quicksand-Bold.ttf) format('truetype');
+}
 
 body {
   color-profile: sRGB;
